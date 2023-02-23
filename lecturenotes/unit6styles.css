@@ -1,0 +1,12 @@
+/* p is our selector*/
+p, h1 {
+    color:darkorchid; 
+    /* first is font size by % - 3 times default size = font-size: 300%
+    second is font size 50% bigger than default = font-size: 1.5em */;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+p a {color:goldenrod;}
+#firstlink {color:hotpink}
+.redtext {color: red}
