@@ -2,8 +2,10 @@ body {background-color:#ffa500;
     color: #0000ff}
 
 a {color:#0000ff;}
-a:hover {color:#faead6}
+a:hover {color:#ffffff}
 
 h1 {background-color: #ffa500;
     color:#faead6}
-nav {}
+nav {background-color: #ffa500;}
+nav a {color:#ffffff}
+nav a:hover {background-color: #708090;}
