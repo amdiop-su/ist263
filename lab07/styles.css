@@ -1,11 +1,13 @@
 body {background-color:#ffa500;
-    color: #0000ff}
+    color: #0000ff;}
 
 a {color:#0000ff;}
-a:hover {color:#ffffff}
+a:hover {color:#ffffff;}
 
 h1 {background-color: #ffa500;
-    color:#faead6}
-nav {background-color: #ffa500;}
-nav a {color:#ffffff}
+    color:#faead6;}
+nav {background-color: #ffa500;
+    padding: 10px; 
+    margin-bottom: 30px;}
+nav a {color:#ffffff;}
 nav a:hover {background-color: #708090;}
