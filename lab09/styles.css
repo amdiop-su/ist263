@@ -1,12 +1,12 @@
-body {background-color:#ffa500;
+body {background-color: white;
     color: #0000ff;}
 
 a {color:#0000ff;}
 a:hover {color:#ffffff;}
+.evenrow {background-color: #ffa500;}
 
-h1 {background-color: #ffa500;
-    color:#ffffff;}
-nav {background-color: #ffa500;
+
+nav {background-color: #0011ff;
     padding: 10px; 
     margin-bottom: 30px;}
 nav a {color:#ffffff;}
