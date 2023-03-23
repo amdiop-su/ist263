@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Centering</title>
+    <style>
+        p {text-align: center;
+            border: 1px solid red;
+            width: 50%;
+        }
+        .centerblock {
+            width: 50%;
+            border: 1px solid blue;
+            margin: 0 auto; /* first valie of 0 is margun for top and bottom, second value for left and right */
+        }
+        .centerflex {
+            border: 1px solid green;
+            justify-content: center; /* always set justify content on the same selector that is display flex */
+            display: flex;
+        }
+        .centerflex div {
+            flex: 1; /* make all children divs flex columns same size */
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <p>This is how you center inline text.</p>
+    <div class="centerblock">This will center the entire block tag. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatibus ipsam ex animi magnam, porro similique aliquam cum fugit officia est recusandae dolores consequatur quisquam consequuntur aliquid eum numquam quae?</div>
+    <br>
+    <div class="centerflex">
+        <div>1</div>
+        <div>This will center using flexbox justify content</div>
+        <div>3</div>
+
+</body>
+</html>
