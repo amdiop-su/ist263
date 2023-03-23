@@ -1,6 +1,6 @@
 body {background-color: white;
     color: #0000ff;}
-body img {max-width: 10px;}
+.icons img {max-width: 50px;}
 
 a {color:#0000ff;}
 a:hover {color:#ffffff;}
