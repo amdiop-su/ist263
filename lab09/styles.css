@@ -1,7 +1,14 @@
 body {background-color: white;
     color: #0000ff;}
 
-.icons div {max-width: 100px;}
+.flexbox2 {display: flexbox;}
+.coreskills div {max-width: 100px;}
+.coreskills {display: flex}
+
+.otherskills {display: flex;
+background-color: #708090;
+border-radius: 25px;}
+.otherskills p, .otherskills h2 {margin-left: 10px;}
 
 
 a {color:#0000ff;}
