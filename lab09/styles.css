@@ -1,13 +1,20 @@
 body {background-color: white;
     color: #0000ff;}
 
-.flexbox2 {display: flexbox;}
-.coreskills div {max-width: 100px;}
-.coreskills {display: flex}
+.coreskills div {max-width: 100px;
+    text-align: center;}
+.coreskills {display: flex;
+    justify-content: space-around;}
+.coreskills img {width: 50px; height: 50px;}
+
+.col1, .col2, .col3, .col4, .col5{flex: 1}
+.otherskills {flex: 2}
+
+
 
 .otherskills {display: flex;
-background-color: #708090;
-border-radius: 25px;}
+    background-color: #708090;
+    border-radius: 25px;}
 .otherskills p, .otherskills h2 {margin-left: 10px;}
 
 
