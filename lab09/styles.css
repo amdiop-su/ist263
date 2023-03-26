@@ -3,7 +3,7 @@ body {background-color: white;
 
 .coreskills div {max-width: 100px;
     text-align: center;}
-.coreskills {display: flex;
+.coreskills, .otherskills {display: flex;
     justify-content: space-around;}
 .coreskills img {width: 50px; height: 50px;}
 
