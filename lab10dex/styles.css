@@ -49,6 +49,7 @@ hr{
 .photoshop{
     float:right;
     margin-left: 10px;
+    max-width: 100%;
 }
 
 .clear{
@@ -102,6 +103,7 @@ aside{
     padding: 15px;
     padding-top:1px;
     padding-bottom:1px;
+    
 }
 
 .flex2a{
@@ -115,4 +117,20 @@ aside{
 }
 .skills_p{
     margin: 40px;
+}
+
+.flex2{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px){
+
+    nav a {
+        display: block;
+        size: 100%;
+    }
+
+    span{
+        display: none;
+    }
 }
