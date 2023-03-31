@@ -1,6 +1,25 @@
 body {background-color: white;
     color: #0000ff;}
 
+.coreskills div {max-width: 100px;
+    text-align: center;}
+.coreskills {display: flex;
+    justify-content: space-around;}
+.coreskills img {width: 50px; height: 50px;}
+
+
+
+.otherskills {display: flexbox;
+    background-color: #708090;
+    border-radius: 20px;
+    }
+.flexbox2 {display: flex;}
+
+
+
+
+
+
 
 
 a {color:#0000ff;}
@@ -26,28 +45,4 @@ nav a:hover {background-color: #708090;}
     margin-right: 2em;}
 .c1, .c2 {flex: 0.2;}
 .r1 section {margin-top: 4em;}
-
-.flexbox2, .coreskills, .otherskills {
-    display: flex;
-}
-
-aside {
-    background-color: #708090;
-    padding: 15px;
-    padding-bottom: 1px;
-    padding-top: 1px;
-    border-radius: 20px;
-}
-
-.coreskills {
-    flex: 3;
-    justify-content: space-around;
-}
-
-
-
-.otherskills {
-    flex: 1;
-    padding: 15px;
-}
 
