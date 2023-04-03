@@ -36,7 +36,6 @@ nav a:hover {background-color: #708090;}
 .r1 section {margin-top: 4em;}
 
 
-----
 
 .flexbox2, .coreskills, .otherskills {
     display: flex;
@@ -54,7 +53,6 @@ aside {
     flex: 3;
     justify-content: space-around;
 }
-
 
 .otherskills {
     flex: 1;
