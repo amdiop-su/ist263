@@ -22,14 +22,24 @@
     <style>
         #hamicon {width: 40x;}
         .firstrow{display: flex;}
+
+        @media only screen and (min-width: 800px) {
+            #hamicon {
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 799px) {
+            a {display: block;}
+        }
+    
     </style>
 </head>
 <body>
-    <div>
-        <img id="hamicon" src="https://lafereger.github.io/ist263/images/hamburger.png" alt=""
+    <div class="firstrow">
+        <img id="hamicon" src="https://lafereger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p id="close">X</p>
     </div>
-    <img id="hamicon" src="https://lafereger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
-    <p>X</p>
+    
     <a href="">About</a>
     <a href="">Skills</a>
     <a href="">Contact</a>
