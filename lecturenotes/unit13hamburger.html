@@ -30,19 +30,29 @@
         }
         @media only screen and (max-width: 799px) {
             a {display: block;}
+            #navlinks {display: none;}
         }
     
     </style>
+    <script>
+        function showNav () {
+            document.getElementById ("navlinks").style.display = "block";
+        }
+        function hideNav() {
+            document.getElementById("navlinks").style.display = "none";
+        }  
+    </script>
 </head>
 <body>
     <div class="firstrow">
-        <img id="hamicon" src="https://lafereger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
-        <p id="close">X</p>
+        <img id="hamicon" onclick="showNav();" src="https://lafereger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p id="close" onclick="hideNav();">X</p>
     </div>
-    
-    <a href="">About</a>
-    <a href="">Skills</a>
-    <a href="">Contact</a>
 
+    <div id="navlinks">
+        <a href="">About</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a>
+    </div>
 </body>
 </html>
