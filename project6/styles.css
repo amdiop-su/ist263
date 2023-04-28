@@ -4,6 +4,7 @@ body {
 
 img {
     height: 420px;
+    justify-content: center;
 }
 nav {
     text-align: center;
