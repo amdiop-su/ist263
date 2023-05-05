@@ -67,7 +67,7 @@ nav a {color:#ffffff;
 }
 
 #navbar .menu {
-    /*
+    
     display: flex;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -80,13 +80,12 @@ nav a {color:#ffffff;
     align-items: center;
     margin: 0;
     padding: 0;
-    justify-content: right;   */
+    justify-content: right;   
     float: right;
 }
 
   
 .menu li {
-   /*
     display: inline-block;
-    margin: 0 10px;  adjust this as needed */
+    margin: 0 10px;  
 }
